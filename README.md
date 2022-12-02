@@ -27,7 +27,7 @@ Composer, npm and Git will need to be installed separately. It is recommended to
 1. Clone the repo.
 
 ```sh
-$ git clone git@github.com:tea-mac/its255a-tech-challenge.git
+$ git clone git@github.com:uofa/its255a-tech-challenge.git
 ```
 
 2. Open a terminal at the root of the repo. Install PHP assets (make sure your PHP version is 8.1.x. You can check this by running `php --version` in the terminal).
