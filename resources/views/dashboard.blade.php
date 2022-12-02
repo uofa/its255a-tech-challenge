@@ -15,18 +15,20 @@
                     <p class="pb-4">
                         Please now add CRUD (create-read-update-delete) functionality to this application. A simple
                         list view of all student records stored in the <span class="font-mono">students</span> table
-                        in the database has been created but needs a little work to make it more useful.
+                        in the database has been created but needs a little work to make it more useful. Tasks can be
+                        completed in any order, and if you don't have time to complete all tasks, don't worry - just
+                        focus on completing a few.
                     </p>
                     <ul class="list-disc list-inside pb-4">
-                        <li>
-                            Create a new student with all attributes as defined in the database. Check the migration
-                            (<span class="font-mono">app\database\migrations</span>) to determine what validation rules
-                            you should include in your form.
-                        </li>
                         <li>
                             Amend the list view to show all student information in a table. Currently,
                             only <span class="font-mono">forename_1</span> and <span class="font-mono">surname</span>
                             are displayed, but we want to see all information about each student.
+                        </li>
+                        <li>
+                            Create a new student with all attributes as defined in the database. Check the migration
+                            (<span class="font-mono">app\database\migrations</span>) to determine what validation rules
+                            you should include in your form.
                         </li>
                         <li>
                             Update a student record.
